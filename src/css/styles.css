@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0px;
+	font-family: "Raleway";
+}
+body {
+	background: black;
+	margin: 0;
+	color: white;
+}
+
+a {
+	color: rgb(255, 0, 0);
+}
+
+.notice-message {
+	position: fixed;
+	height: 25px;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	z-index: 9999;
+}
+
+.notice-message > a {
+	color: white;
+}
+
+.intro-container {
+	position: relative;
+	top: 20%;
+	text-align: center;
+}
+
+.intro-title {
+	font-weight: 700;
+	font-size: 80px;
+	letter-spacing: 15px;
+	color: rgb(255,255,255);
+	padding-bottom: 15px;
+}
+
+.intro-subtitle {
+	font-size: 28px;
+	padding-top: 10px;
+	border-top: 1px solid rgb(255,255,255);
+	border-top-color: rgb(255,255,255);
+	display: inline-block;
+}
+
+.intro-join {
+	display: block;
+	position: absolute;
+	bottom: 150px;
+	right: 44%;
+	text-align: center;
+
+	font-weight: 700;
+	font-size: 28px;
+	border: 1px solid rgb(255, 255, 255);
+	padding: 5px;
+	color: white;
+	margin-top: 200px;
+}
+
+.intro-scroll {
+	color: white!important;
+	height: 60px;
+	width: 50px;
+	display: block;
+	position: absolute;
+	bottom: 100px;
+	right: 48%;
+	text-align: center;
+	z-index: 6;
+}
+
+.intro-scroll .glyphicon {
+	color: rgb(255,255,255);
+	font-size: 30px;
+	animation-name: wiggle;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+	padding-top: 10px;
+}
+
+.background-grey {
+	background-color: #f3f3f3;
+}
+
+.red {
+	color: rgb(255, 0, 0);
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	text-align: center;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgb(255,255,255);
+	margin-top: 10px;
+}
+
+p.lead {
+	text-align: center;
+}
+
+hr {
+	margin: 40px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.header {
+	background: no-repeat center right fixed url('/img/VvGkAuUlLZ.jpg');
+	/*background-image: url('/img/oriental-background-vector-cropped.png');*/
+	background-size: cover;
+	overflow: hidden;
+}
+
+.header-text {
+	padding
+}
+
+.centered {text-align: center}
+
+.container {
+	padding: 40px 100px;
+	/*margin: 0px 0px !important;*/
+}
+
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	padding: 7px 16px;
+	border: 2px solid #fff;
+	border-radius: 100%!important;
+	font-size: 40px;
+}
+
+@keyframes wiggle {
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}
